@@ -1,0 +1,6 @@
+﻿场景,场景类型,最快算法,最精确算法,综合最优算法,最快算法耗时(秒),最精确算法MSE
+"n=100,p=20",小样本低维,BCD,ProximalHuber,ProximalHuber,0.0014,1.0009434593e-10
+"n=500,p=50",小样本低维,BCD,ProximalHuber,ProximalHuber,0.0037,1.0000845805e-10
+"n=1000,p=100",中样本中维,BCD,ProximalHuber,ProximalHuber,0.0071,1.0000423780e-10
+"n=1000,p=500",中样本高维,BCD,FISTA,FISTA,0.1061,1.0001192477e-10
+"n=5000,p=1000",大样本超高维,BCD,FISTA,SGD,0.1462,1.0000305291e-10
